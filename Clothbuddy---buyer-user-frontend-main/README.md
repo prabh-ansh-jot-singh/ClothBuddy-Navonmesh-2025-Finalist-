@@ -1,54 +1,246 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👕 ClothBuddy
 
-## Getting Started
+### Empowering Local Fashion Vendors Through Hyperlocal Commerce
 
-Setting up firebase:<br>
+🏆 **Navonmesh 2025 Finalist**
 
-```bash
-npm install firebase
+ClothBuddy is a hyperlocal fashion commerce platform designed to help local clothing vendors establish a digital presence, reach more customers, and compete effectively with large e-commerce marketplaces.
+
+The platform bridges the gap between local businesses and modern consumers by enabling faster deliveries, same-day replacements, personalized shopping experiences, and seamless digital storefront management.
+
+---
+
+# 🚨 Problem Statement
+
+Thousands of local fashion vendors struggle to grow their businesses because they lack access to affordable digital infrastructure and online visibility.
+
+Customers face challenges such as:
+
+* Limited access to nearby fashion stores
+* Long delivery timelines from large marketplaces
+* Complicated return and replacement processes
+* Lack of personalized shopping experiences
+* Difficulty discovering local products
+
+Meanwhile, local businesses lose potential customers despite offering quality products and faster fulfillment capabilities.
+
+---
+
+# 💡 Solution
+
+ClothBuddy creates a digital ecosystem where local fashion vendors can showcase products, manage customer interactions, and receive orders through an intuitive platform.
+
+By connecting customers with nearby vendors, ClothBuddy enables:
+
+✅ Faster local deliveries
+
+✅ Same-day replacement requests
+
+✅ Improved vendor visibility
+
+✅ Better customer engagement
+
+✅ Seamless digital shopping experiences
+
+✅ Stronger support for local businesses
+
+---
+
+# ✨ Key Features
+
+## 🛍️ Digital Storefronts
+
+Allows local vendors to showcase and manage products online.
+
+### Benefits
+
+* Product catalog management
+* Improved online visibility
+* Enhanced customer reach
+
+---
+
+## 🚚 Hyperlocal Delivery Support
+
+Designed to reduce delivery times by connecting users with nearby vendors.
+
+### Benefits
+
+* Faster order fulfillment
+* Reduced logistics overhead
+* Improved customer satisfaction
+
+---
+
+## 🔄 Same-Day Replacement Workflow
+
+Enables quick issue resolution and replacement handling.
+
+### Benefits
+
+* Better customer experience
+* Increased trust
+* Reduced replacement delays
+
+---
+
+## ❤️ Wishlist & Product Discovery
+
+Allows users to save and explore products based on preferences.
+
+### Benefits
+
+* Improved engagement
+* Personalized browsing
+* Better shopping experience
+
+---
+
+## 🔐 Secure Authentication
+
+Provides safe and reliable user access.
+
+### Features
+
+* Email Authentication
+* Google Authentication
+* Secure Session Management
+
+---
+
+## 👤 User Account Management
+
+Comprehensive user profile and address management system.
+
+### Features
+
+* Address Book
+* Profile Management
+* Order Tracking Support
+
+---
+
+# 🏗️ System Architecture
+
+```text
+Customer
+    │
+    ▼
+ClothBuddy Platform
+    │
+ ┌──┼──────────────┐
+ │  │              │
+ ▼  ▼              ▼
+Product        Wishlist
+Discovery      Management
+ │
+ ▼
+Vendor Catalog
+ │
+ ▼
+Order Processing
+ │
+ ▼
+Hyperlocal Delivery
+ │
+ ▼
+Replacement Support
 ```
 
-Go to .env.local file, if it is not located then create a new .env.local file in your project root:<br>
+---
 
-Add your respective credentials in .env.local file from Firebase website after enabling Google and Email/Password Authentication in the Authentication part.
+# 🛠️ Technology Stack
 
-NEXT_PUBLIC_FIREBASE_API_KEY="Add_YOUR_FIREBASE_API_KEY"<br>
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN="ADD_YOUR_FIREBASE_AUTH_DOMAIN"<br>
-NEXT_PUBLIC_FIREBASE_PROJECT_ID="Add_YOUR_FIREBASE_PROJECT_ID"<br>
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET="ADD_YOUR_FIREBASE_STORAGE_BUCKET"<br>
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="ADD_YOUR_FIREBASE_MESSAGING_SENDER_ID"<br>
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID="ADD_YOUR_FIREBASE_MESSAGING_SENDER_ID"<br>
-NEXT_PUBLIC_FIREBASE_APP_ID="ADD_YOUR_FIREBASE_APP_ID"
+### Frontend
 
-First, run the development server:
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Backend & Services
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+* Firebase Authentication
+* Cloud-Based Services
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Development Tools
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* Git
+* GitHub
+* Vercel
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+# 📈 Business Impact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ClothBuddy was built with a mission to support local businesses and create a stronger digital ecosystem for fashion retailers.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Potential Benefits
 
-## Deploy on Vercel
+* Increased vendor visibility
+* Improved customer retention
+* Faster deliveries
+* Better replacement management
+* Higher customer trust
+* Enhanced shopping experience
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 🚀 Future Roadmap
+
+## 🤖 AI-Powered Recommendations
+
+Personalized fashion recommendations based on user behavior and shopping preferences.
+
+---
+
+## 📍 Location-Based Product Discovery
+
+Show products and vendors based on customer location for faster delivery and greater relevance.
+
+---
+
+## 📊 Vendor Analytics Dashboard
+
+Provide local vendors with business insights including:
+
+* Sales trends
+* Customer behavior
+* Inventory performance
+* Demand forecasting
+
+---
+
+## 🚚 Smart Delivery Optimization
+
+Use AI and route optimization to improve delivery efficiency and reduce fulfillment times.
+
+---
+
+## 💬 AI Shopping Assistant
+
+Conversational assistant to help users discover products, compare options, and receive personalized suggestions.
+
+---
+
+## 🏪 Multi-Vendor Marketplace Expansion
+
+Transform ClothBuddy into a scalable marketplace supporting thousands of local businesses across multiple cities.
+
+---
+
+## 🌍 Digital Empowerment for Local Businesses
+
+Long-term vision:
+
+Enable small and medium-sized fashion retailers to compete with large e-commerce platforms through affordable technology and digital commerce tools.
+
+---
+
+# 🏆 Achievement
+
+**Navonmesh 2025 Finalist**
+
+Recognized for innovation, practical applicability, and potential impact in empowering local businesses through technology.
+
+
